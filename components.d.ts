@@ -14,6 +14,7 @@ declare module 'vue' {
     AppBreadcrumb: typeof import('./src/components/layout/AppBreadcrumb.vue')['default']
     AppFooter: typeof import('./src/components/layout/AppFooter.vue')['default']
     AppLayout: typeof import('./src/components/layout/AppLayout.vue')['default']
+    ECharts: typeof import('./src/components/ECharts.vue')['default']
     ElAside: typeof import('element-plus/es')['ElAside']
     ElAvatar: typeof import('element-plus/es')['ElAvatar']
     ElBreadcrumb: typeof import('element-plus/es')['ElBreadcrumb']
